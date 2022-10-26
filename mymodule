@@ -1,0 +1,48 @@
+#!/usr/bin/bash
+termux-setup-storage
+pkg update
+pkg upgrade -y
+pkg dist-upgrade -y
+pkg install root-repo -y
+pkg install x11-repo -y
+pkg install termux-api -y
+pkg install git -y
+pkg install wget -y
+pkg install curl -y
+pkg install python -y
+pkg install nano -y
+pkg install php -y
+pkg install ruby -y
+pkg install mc -y
+pkg install bash -y
+pkg install toilet -y
+pkg install figlet -y
+pkg install cowsay -y
+pkg install cloudflared -y
+pkg install openssh -y
+pkg install sshpass -y
+pkg install mariadb -y
+pkg install nodejs -y
+gem install lolcat
+pip install requests
+pip install mechanize 
+python3 -m pip install --upgrade pip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
